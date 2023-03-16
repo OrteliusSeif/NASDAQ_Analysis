@@ -27,4 +27,4 @@ The dashboard displays a line chart showing the closing price of the selected st
 The dashboard is built on the Bootstrap framework and has a responsive design that works on both desktop and mobile devices.
 
 
-https://img.shields.io/github/languages/count/OrteliusSeif/NASDAQ_Analysis?style=flat-square
+![GitHub language count](https://img.shields.io/github/languages/count/OrteliusSeif/NASDAQ_Analysis?label=python&style=flat-square)

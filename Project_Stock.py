@@ -8,8 +8,6 @@ import pandas as pd
 import dash_bootstrap_components as dbc
 
 
-
-
 nsdq = pd.read_csv('/Users/seifammar/Desktop/Data_viz/main_folder/Tutorials/Tutorial_replicats/Nasdaq_Analysis/NASDAQcompanylist.csv')
 
 nsdq.set_index('Symbol', inplace=True)
@@ -26,7 +24,7 @@ for tic in nsdq.index:
 
 
 # Set your API key
-api_key = 'pk_824a5d695889456d8588b12e1305c270'
+api_key = 'pk_824a5++++d695++++++88+++9456d++++8588b1****2**e1305c270'
 
 
 app = dash.Dash(__name__, assets_folder='assets', external_stylesheets=[dbc.themes.BOOTSTRAP])
@@ -45,12 +43,6 @@ card = dbc.Card(
     ),
     style={"width": "18rem"},
 )
-
-
-
-
-
-
 
 
 app.layout = html.Div([
@@ -105,9 +97,6 @@ app.layout = html.Div([
     [State('my_stock_picker', 'value'),
     State('my_date_picker', 'start_date'),
     State('my_date_picker', 'end_date')])
-
-
-
 
 
 def update_graph(n_clicks, stock_ticker, start_date, end_date):
